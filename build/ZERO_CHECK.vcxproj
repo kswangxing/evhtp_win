@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8F803DED-39B0-34E5-B7B6-C493338B6D50}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\288b99aada2199636697752493439a6c\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -SE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18 -BE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/libevhtp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\CMake\share\cmake-3.15\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.15\Modules\CPack.cmake;C:\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;C:\CMake\share\cmake-3.15\Modules\CheckCCompilerFlag.cmake;C:\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.15\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.15\Modules\FindOpenSSL.cmake;C:\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;C:\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;C:\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\CMakeLists.txt;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeCCompiler.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeSystem.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\Config.cmake.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\FindLibEvent.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\FindOniguruma.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\TestBigEndian.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\colors.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\options.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\packaging.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\compat\sys\queue.h.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\compat\sys\tree.h.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\evhtp.pc.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\CMakeLists.txt;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\https\bin\generate.sh.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include\evhtp\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\generate.stamp;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -SE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18 -BE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/libevhtp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\CMake\share\cmake-3.15\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.15\Modules\CPack.cmake;C:\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;C:\CMake\share\cmake-3.15\Modules\CheckCCompilerFlag.cmake;C:\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.15\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.15\Modules\FindOpenSSL.cmake;C:\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;C:\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;C:\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\CMakeLists.txt;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeCCompiler.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeSystem.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\Config.cmake.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\FindLibEvent.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\FindOniguruma.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\TestBigEndian.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\colors.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\options.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\packaging.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\compat\sys\queue.h.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\compat\sys\tree.h.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\evhtp.pc.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\CMakeLists.txt;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\https\bin\generate.sh.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include\evhtp\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\generate.stamp;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -SE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18 -BE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/libevhtp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\CMake\share\cmake-3.15\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.15\Modules\CPack.cmake;C:\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;C:\CMake\share\cmake-3.15\Modules\CheckCCompilerFlag.cmake;C:\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.15\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.15\Modules\FindOpenSSL.cmake;C:\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;C:\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;C:\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\CMakeLists.txt;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeCCompiler.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeSystem.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\Config.cmake.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\FindLibEvent.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\FindOniguruma.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\TestBigEndian.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\colors.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\options.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\packaging.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\compat\sys\queue.h.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\compat\sys\tree.h.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\evhtp.pc.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\CMakeLists.txt;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\https\bin\generate.sh.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include\evhtp\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\generate.stamp;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -SE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18 -BE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/libevhtp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\CMake\share\cmake-3.15\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakePackageConfigHelpers.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\CMake\share\cmake-3.15\Modules\CPack.cmake;C:\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;C:\CMake\share\cmake-3.15\Modules\CheckCCompilerFlag.cmake;C:\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\CMake\share\cmake-3.15\Modules\CheckFunctionExists.cmake;C:\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;C:\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;C:\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;C:\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\CMake\share\cmake-3.15\Modules\FindOpenSSL.cmake;C:\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\CMake\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;C:\CMake\share\cmake-3.15\Modules\WriteBasicConfigVersionFile.cmake;C:\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\CMakeLists.txt;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeCCompiler.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\3.15.4\CMakeSystem.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\Config.cmake.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\FindLibEvent.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\FindOniguruma.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\TestBigEndian.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\colors.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\options.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\cmake\packaging.cmake;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\compat\sys\queue.h.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\compat\sys\tree.h.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\evhtp.pc.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\CMakeLists.txt;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\https\bin\generate.sh.in;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include\evhtp\config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\generate.stamp;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
