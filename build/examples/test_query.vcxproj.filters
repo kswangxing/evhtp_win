@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\test_query.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4AFEA950-502B-3480-B67F-8805D4EC9429}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

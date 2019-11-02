@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DA5EEBAF-A33D-303B-87A8-9DA5CB63CFB8}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\CMake\bin\cmake.exe -SE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18 -BE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build --check-stamp-file E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\https\bin\generate.sh.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\CMake\bin\cmake.exe -SE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18 -BE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build --check-stamp-file E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\https\bin\generate.sh.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\CMake\bin\cmake.exe -SE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18 -BE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build --check-stamp-file E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\https\bin\generate.sh.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\CMake\bin\cmake.exe -SE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18 -BE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build --check-stamp-file E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\https\bin\generate.sh.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\ZERO_CHECK.vcxproj">
+      <Project>{8F803DED-39B0-34E5-B7B6-C493338B6D50}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\example_basic.vcxproj">
+      <Project>{68387996-ACAA-3038-819C-64798F2C821B}</Project>
+      <Name>example_basic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\example_chunked.vcxproj">
+      <Project>{09363846-73A7-38BD-96B3-0012B0807E3C}</Project>
+      <Name>example_chunked</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\example_https_client.vcxproj">
+      <Project>{9C9ACB19-FAC6-3EC7-9328-2915E32258FC}</Project>
+      <Name>example_https_client</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\example_https_server.vcxproj">
+      <Project>{E76C078D-BDC1-3769-BCE3-00E59F9CF705}</Project>
+      <Name>example_https_server</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\example_pause.vcxproj">
+      <Project>{004940AD-E863-3592-94C3-F9C45927067F}</Project>
+      <Name>example_pause</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\example_request_fini.vcxproj">
+      <Project>{294716CB-564E-3F3D-8ED8-E94B65DDBCA1}</Project>
+      <Name>example_request_fini</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\example_vhost.vcxproj">
+      <Project>{46B4B4F2-601E-35D2-A2E3-903653161B06}</Project>
+      <Name>example_vhost</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\test_basic.vcxproj">
+      <Project>{3E0DA8A5-7403-3F14-89D5-800AF8683333}</Project>
+      <Name>test_basic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\test_client.vcxproj">
+      <Project>{7E679C69-FEE4-3740-918B-EFB7DA4283F6}</Project>
+      <Name>test_client</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\test_extensive.vcxproj">
+      <Project>{C3896650-185A-3212-B4D3-41D619F15B20}</Project>
+      <Name>test_extensive</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\test_perf.vcxproj">
+      <Project>{3DC3C9CD-4B7A-39B0-A52D-BD0F0FB9215F}</Project>
+      <Name>test_perf</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\test_query.vcxproj">
+      <Project>{7B4AB4EB-D40B-38F0-8505-5D7C48692D9E}</Project>
+      <Name>test_query</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\test_vhost.vcxproj">
+      <Project>{5250C126-54CF-31B2-8C9A-F1A6174B1ADD}</Project>
+      <Name>test_vhost</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
