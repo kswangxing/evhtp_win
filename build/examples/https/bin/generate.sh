@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CONFIG_DIR="E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/https"
+CONFIG_DIR="E:/mygitcode/evhtp_win/build/examples/https"
 
 # Create new CA
 openssl req -new -x509 -days 9999    \

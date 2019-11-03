@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7E679C69-FEE4-3740-918B-EFB7DA4283F6}</ProjectGuid>
+    <ProjectGuid>{A4FF0D84-E668-3C56-81EB-6752031B4A73}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\mygitcode\evhtp_win\build\examples\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_client.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_client</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\mygitcode\evhtp_win\build\examples\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_client.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_client</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\mygitcode\evhtp_win\build\examples\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_client.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_client</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\mygitcode\evhtp_win\build\examples\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_client.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_client</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;E:\RSIP_trunk\IOPlatform\public\include\libevent;E:\RSIP_;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\compat;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\include;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\mygitcode\evhtp_win\package\include\libevent-2.1.11;E:\mygitcode\evhtp_win\package\include\oniguruma-6.9.3;E:\mygitcode\evhtp_win\build\compat;E:\mygitcode\evhtp_win\build\include;E:\mygitcode\evhtp_win\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -march=i486</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -105,10 +105,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;PROJECT_VERSION=1.2.18;EVHTP_HAS_SYS_TYPES;NO_STRNDUP;NO_SYS_UN;EVHTP_SYS_ARCH=64;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;E:\RSIP_trunk\IOPlatform\public\include\libevent;E:\RSIP_;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\compat;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\include;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\mygitcode\evhtp_win\package\include\libevent-2.1.11;E:\mygitcode\evhtp_win\package\include\oniguruma-6.9.3;E:\mygitcode\evhtp_win\build\compat;E:\mygitcode\evhtp_win\build\include;E:\mygitcode\evhtp_win\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;E:\RSIP_trunk\IOPlatform\public\include\libevent;E:\RSIP_;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\compat;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\include;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\mygitcode\evhtp_win\package\include\libevent-2.1.11;E:\mygitcode\evhtp_win\package\include\oniguruma-6.9.3;E:\mygitcode\evhtp_win\build\compat;E:\mygitcode\evhtp_win\build\include;E:\mygitcode\evhtp_win\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,13 +116,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\Debug\evhtp.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event_openssl.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event_core.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event_extra.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\libssl.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\libcrypto.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\onig.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\WS2_32.Lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\Debug\evhtp.lib;..\..\package\lib\event.lib;..\..\package\lib\event_openssl.lib;..\..\package\lib\event_core.lib;..\..\package\lib\event_extra.lib;..\..\package\lib\libssl.lib;..\..\package\lib\libcrypto.lib;..\..\package\lib\onig.lib;..\..\package\lib\WS2_32.Lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/Debug/test_client.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/Debug/test_client.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/mygitcode/evhtp_win/build/examples/Debug/test_client.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/mygitcode/evhtp_win/build/examples/Debug/test_client.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -131,7 +131,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;E:\RSIP_trunk\IOPlatform\public\include\libevent;E:\RSIP_;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\compat;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\include;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\mygitcode\evhtp_win\package\include\libevent-2.1.11;E:\mygitcode\evhtp_win\package\include\oniguruma-6.9.3;E:\mygitcode\evhtp_win\build\compat;E:\mygitcode\evhtp_win\build\include;E:\mygitcode\evhtp_win\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -march=i486</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
@@ -150,10 +150,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROJECT_VERSION=1.2.18;EVHTP_HAS_SYS_TYPES;NO_STRNDUP;NO_SYS_UN;EVHTP_SYS_ARCH=64;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;E:\RSIP_trunk\IOPlatform\public\include\libevent;E:\RSIP_;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\compat;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\include;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\mygitcode\evhtp_win\package\include\libevent-2.1.11;E:\mygitcode\evhtp_win\package\include\oniguruma-6.9.3;E:\mygitcode\evhtp_win\build\compat;E:\mygitcode\evhtp_win\build\include;E:\mygitcode\evhtp_win\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;E:\RSIP_trunk\IOPlatform\public\include\libevent;E:\RSIP_;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\compat;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\include;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\mygitcode\evhtp_win\package\include\libevent-2.1.11;E:\mygitcode\evhtp_win\package\include\oniguruma-6.9.3;E:\mygitcode\evhtp_win\build\compat;E:\mygitcode\evhtp_win\build\include;E:\mygitcode\evhtp_win\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -161,13 +161,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\Release\evhtp.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event_openssl.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event_core.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event_extra.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\libssl.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\libcrypto.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\onig.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\WS2_32.Lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\Release\evhtp.lib;..\..\package\lib\event.lib;..\..\package\lib\event_openssl.lib;..\..\package\lib\event_core.lib;..\..\package\lib\event_extra.lib;..\..\package\lib\libssl.lib;..\..\package\lib\libcrypto.lib;..\..\package\lib\onig.lib;..\..\package\lib\WS2_32.Lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/Release/test_client.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/Release/test_client.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/mygitcode/evhtp_win/build/examples/Release/test_client.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/mygitcode/evhtp_win/build/examples/Release/test_client.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -176,7 +176,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;E:\RSIP_trunk\IOPlatform\public\include\libevent;E:\RSIP_;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\compat;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\include;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\mygitcode\evhtp_win\package\include\libevent-2.1.11;E:\mygitcode\evhtp_win\package\include\oniguruma-6.9.3;E:\mygitcode\evhtp_win\build\compat;E:\mygitcode\evhtp_win\build\include;E:\mygitcode\evhtp_win\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -march=i486</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
@@ -195,10 +195,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROJECT_VERSION=1.2.18;EVHTP_HAS_SYS_TYPES;NO_STRNDUP;NO_SYS_UN;EVHTP_SYS_ARCH=64;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;E:\RSIP_trunk\IOPlatform\public\include\libevent;E:\RSIP_;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\compat;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\include;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\mygitcode\evhtp_win\package\include\libevent-2.1.11;E:\mygitcode\evhtp_win\package\include\oniguruma-6.9.3;E:\mygitcode\evhtp_win\build\compat;E:\mygitcode\evhtp_win\build\include;E:\mygitcode\evhtp_win\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;E:\RSIP_trunk\IOPlatform\public\include\libevent;E:\RSIP_;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\compat;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\include;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\mygitcode\evhtp_win\package\include\libevent-2.1.11;E:\mygitcode\evhtp_win\package\include\oniguruma-6.9.3;E:\mygitcode\evhtp_win\build\compat;E:\mygitcode\evhtp_win\build\include;E:\mygitcode\evhtp_win\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -206,13 +206,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\MinSizeRel\evhtp.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event_openssl.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event_core.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event_extra.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\libssl.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\libcrypto.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\onig.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\WS2_32.Lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\MinSizeRel\evhtp.lib;..\..\package\lib\event.lib;..\..\package\lib\event_openssl.lib;..\..\package\lib\event_core.lib;..\..\package\lib\event_extra.lib;..\..\package\lib\libssl.lib;..\..\package\lib\libcrypto.lib;..\..\package\lib\onig.lib;..\..\package\lib\WS2_32.Lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/MinSizeRel/test_client.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/MinSizeRel/test_client.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/mygitcode/evhtp_win/build/examples/MinSizeRel/test_client.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/mygitcode/evhtp_win/build/examples/MinSizeRel/test_client.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -221,7 +221,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;E:\RSIP_trunk\IOPlatform\public\include\libevent;E:\RSIP_;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\compat;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\include;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\mygitcode\evhtp_win\package\include\libevent-2.1.11;E:\mygitcode\evhtp_win\package\include\oniguruma-6.9.3;E:\mygitcode\evhtp_win\build\compat;E:\mygitcode\evhtp_win\build\include;E:\mygitcode\evhtp_win\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -march=i486</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
@@ -239,10 +239,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PROJECT_VERSION=1.2.18;EVHTP_HAS_SYS_TYPES;NO_STRNDUP;NO_SYS_UN;EVHTP_SYS_ARCH=64;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;E:\RSIP_trunk\IOPlatform\public\include\libevent;E:\RSIP_;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\compat;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\include;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\mygitcode\evhtp_win\package\include\libevent-2.1.11;E:\mygitcode\evhtp_win\package\include\oniguruma-6.9.3;E:\mygitcode\evhtp_win\build\compat;E:\mygitcode\evhtp_win\build\include;E:\mygitcode\evhtp_win\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\..\public\include\libevent;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\..\oniguruma-6.9.3\src;E:\RSIP_trunk\IOPlatform\public\include\libevent;E:\RSIP_;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\compat;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\include;E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\mygitcode\evhtp_win\package\include\libevent-2.1.11;E:\mygitcode\evhtp_win\package\include\oniguruma-6.9.3;E:\mygitcode\evhtp_win\build\compat;E:\mygitcode\evhtp_win\build\include;E:\mygitcode\evhtp_win\include;C:\DownLoad\opensslh110\build_release64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,13 +250,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\RelWithDebInfo\evhtp.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event_openssl.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event_core.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\event_extra.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\libssl.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\libcrypto.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\onig.lib;E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\WS2_32.Lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\RelWithDebInfo\evhtp.lib;..\..\package\lib\event.lib;..\..\package\lib\event_openssl.lib;..\..\package\lib\event_core.lib;..\..\package\lib\event_extra.lib;..\..\package\lib\libssl.lib;..\..\package\lib\libcrypto.lib;..\..\package\lib\onig.lib;..\..\package\lib\WS2_32.Lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/RelWithDebInfo/test_client.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/RelWithDebInfo/test_client.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/mygitcode/evhtp_win/build/examples/RelWithDebInfo/test_client.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/mygitcode/evhtp_win/build/examples/RelWithDebInfo/test_client.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -264,10 +264,10 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/examples/CMakeLists.txt</Message>
+    <CustomBuild Include="E:\mygitcode\evhtp_win\examples\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/mygitcode/evhtp_win/examples/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-C:\CMake\bin\cmake.exe -SE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18 -BE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build --check-stamp-file E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/CMakeFiles/generate.stamp
+C:\CMake\bin\cmake.exe -SE:/mygitcode/evhtp_win -BE:/mygitcode/evhtp_win/build --check-stamp-file E:/mygitcode/evhtp_win/build/examples/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -275,12 +275,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\https\bin\generate.sh.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\mygitcode\evhtp_win\examples\https\bin\generate.sh.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\mygitcode\evhtp_win\build\examples\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/examples/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/mygitcode/evhtp_win/examples/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-C:\CMake\bin\cmake.exe -SE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18 -BE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build --check-stamp-file E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/CMakeFiles/generate.stamp
+C:\CMake\bin\cmake.exe -SE:/mygitcode/evhtp_win -BE:/mygitcode/evhtp_win/build --check-stamp-file E:/mygitcode/evhtp_win/build/examples/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -288,12 +288,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\https\bin\generate.sh.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\mygitcode\evhtp_win\examples\https\bin\generate.sh.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\mygitcode\evhtp_win\build\examples\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/examples/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/mygitcode/evhtp_win/examples/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-C:\CMake\bin\cmake.exe -SE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18 -BE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build --check-stamp-file E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/CMakeFiles/generate.stamp
+C:\CMake\bin\cmake.exe -SE:/mygitcode/evhtp_win -BE:/mygitcode/evhtp_win/build --check-stamp-file E:/mygitcode/evhtp_win/build/examples/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -301,12 +301,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\https\bin\generate.sh.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\mygitcode\evhtp_win\examples\https\bin\generate.sh.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\mygitcode\evhtp_win\build\examples\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/examples/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/mygitcode/evhtp_win/examples/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-C:\CMake\bin\cmake.exe -SE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18 -BE:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build --check-stamp-file E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/CMakeFiles/generate.stamp
+C:\CMake\bin\cmake.exe -SE:/mygitcode/evhtp_win -BE:/mygitcode/evhtp_win/build --check-stamp-file E:/mygitcode/evhtp_win/build/examples/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -314,23 +314,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\https\bin\generate.sh.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\examples\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\mygitcode\evhtp_win\examples\https\bin\generate.sh.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\mygitcode\evhtp_win\build\examples\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\examples\test_client.c" />
+    <ClCompile Include="E:\mygitcode\evhtp_win\examples\test_client.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\ZERO_CHECK.vcxproj">
-      <Project>{8F803DED-39B0-34E5-B7B6-C493338B6D50}</Project>
+    <ProjectReference Include="E:\mygitcode\evhtp_win\build\ZERO_CHECK.vcxproj">
+      <Project>{4379B969-6C3B-3A78-A33B-593001436681}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\evhtp.vcxproj">
-      <Project>{1CB83D90-5776-3F12-A119-FBC31ED30BE5}</Project>
+    <ProjectReference Include="E:\mygitcode\evhtp_win\build\evhtp.vcxproj">
+      <Project>{19811A5C-3905-351F-8E98-D7FA0B7AB89C}</Project>
       <Name>evhtp</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

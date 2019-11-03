@@ -1,0 +1,10 @@
+^E:\MYGITCODE\EVHTP_WIN\BUILD\CMAKEFILES\B23AA542A4E6F1E9106FF58B8169F627\GENERATE.STAMP.RULE
+setlocal
+C:\CMake\bin\cmake.exe -SE:/mygitcode/evhtp_win -BE:/mygitcode/evhtp_win/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/mygitcode/evhtp_win/build/libevhtp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

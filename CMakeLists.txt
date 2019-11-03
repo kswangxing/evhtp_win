@@ -10,9 +10,8 @@ project(libevhtp VERSION "1.2.18")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # add by wangx
-list(APPEND CMAKE_LIBRARY_PATH "../../public/lib/x64/windows")
-include_directories("../../public/include/libevent")
-include_directories("../oniguruma-6.9.3/src")
+list(APPEND CMAKE_LIBRARY_PATH "./package/lib/")
+
 IF (CMAKE_SYSTEM_NAME MATCHES "Linux")
 	set(CMAKE_LIBRARY_PATH "../../public/lib/x64/Linux")
 ENDIF (CMAKE_SYSTEM_NAME MATCHES "Linux")

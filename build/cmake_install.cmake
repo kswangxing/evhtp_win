@@ -1,4 +1,4 @@
-# Install script for directory: E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18
+# Install script for directory: E:/mygitcode/evhtp_win
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,53 +34,53 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/Debug/evhtp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/mygitcode/evhtp_win/build/Debug/evhtp.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/Release/evhtp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/mygitcode/evhtp_win/build/Release/evhtp.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/MinSizeRel/evhtp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/mygitcode/evhtp_win/build/MinSizeRel/evhtp.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/RelWithDebInfo/evhtp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "E:/mygitcode/evhtp_win/build/RelWithDebInfo/evhtp.lib")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/Debug/evhtp.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/mygitcode/evhtp_win/build/Debug/evhtp.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/Release/evhtp.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/mygitcode/evhtp_win/build/Release/evhtp.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/MinSizeRel/evhtp.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/mygitcode/evhtp_win/build/MinSizeRel/evhtp.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/RelWithDebInfo/evhtp.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "E:/mygitcode/evhtp_win/build/RelWithDebInfo/evhtp.dll")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/include/evhtp.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "E:/mygitcode/evhtp_win/include/evhtp.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/evhtp" TYPE FILE FILES
-    "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/include/evhtp/evhtp.h"
-    "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/include/evhtp/parser.h"
-    "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/include/evhtp/log.h"
-    "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/include/evhtp/sslutils.h"
-    "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/include/evhtp/config.h"
+    "E:/mygitcode/evhtp_win/include/evhtp/evhtp.h"
+    "E:/mygitcode/evhtp_win/include/evhtp/parser.h"
+    "E:/mygitcode/evhtp_win/include/evhtp/log.h"
+    "E:/mygitcode/evhtp_win/include/evhtp/sslutils.h"
+    "E:/mygitcode/evhtp_win/build/include/evhtp/config.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/evhtp/sys" TYPE FILE FILES
-    "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/compat/sys/tree.h"
-    "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/compat/sys/queue.h"
+    "E:/mygitcode/evhtp_win/build/compat/sys/tree.h"
+    "E:/mygitcode/evhtp_win/build/compat/sys/queue.h"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp" TYPE FILE FILES
-    "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/generated/libevhtpConfig.cmake"
-    "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/generated/libevhtpConfigVersion.cmake"
+    "E:/mygitcode/evhtp_win/build/generated/libevhtpConfig.cmake"
+    "E:/mygitcode/evhtp_win/build/generated/libevhtpConfigVersion.cmake"
     )
 endif()
 
@@ -88,7 +88,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp/libevhtpTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp/libevhtpTargets.cmake"
-         "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/CMakeFiles/Export/lib/cmake/libevhtp/libevhtpTargets.cmake")
+         "E:/mygitcode/evhtp_win/build/CMakeFiles/Export/lib/cmake/libevhtp/libevhtpTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp/libevhtpTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -97,18 +97,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp" TYPE FILE FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/CMakeFiles/Export/lib/cmake/libevhtp/libevhtpTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp" TYPE FILE FILES "E:/mygitcode/evhtp_win/build/CMakeFiles/Export/lib/cmake/libevhtp/libevhtpTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp" TYPE FILE FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/CMakeFiles/Export/lib/cmake/libevhtp/libevhtpTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp" TYPE FILE FILES "E:/mygitcode/evhtp_win/build/CMakeFiles/Export/lib/cmake/libevhtp/libevhtpTargets-debug.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp" TYPE FILE FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/CMakeFiles/Export/lib/cmake/libevhtp/libevhtpTargets-minsizerel.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp" TYPE FILE FILES "E:/mygitcode/evhtp_win/build/CMakeFiles/Export/lib/cmake/libevhtp/libevhtpTargets-minsizerel.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp" TYPE FILE FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/CMakeFiles/Export/lib/cmake/libevhtp/libevhtpTargets-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp" TYPE FILE FILES "E:/mygitcode/evhtp_win/build/CMakeFiles/Export/lib/cmake/libevhtp/libevhtpTargets-relwithdebinfo.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp" TYPE FILE FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/CMakeFiles/Export/lib/cmake/libevhtp/libevhtpTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libevhtp" TYPE FILE FILES "E:/mygitcode/evhtp_win/build/CMakeFiles/Export/lib/cmake/libevhtp/libevhtpTargets-release.cmake")
   endif()
 endif()
 
@@ -121,12 +121,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "C:/Program Files (x86)/libevhtp/lib/pkgconfig" TYPE FILE FILES "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/evhtp.pc")
+file(INSTALL DESTINATION "C:/Program Files (x86)/libevhtp/lib/pkgconfig" TYPE FILE FILES "E:/mygitcode/evhtp_win/build/evhtp.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/examples/cmake_install.cmake")
+  include("E:/mygitcode/evhtp_win/build/examples/cmake_install.cmake")
 
 endif()
 
@@ -138,5 +138,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/mygitcode/evhtp_win/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

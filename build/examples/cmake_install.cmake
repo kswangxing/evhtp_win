@@ -1,4 +1,4 @@
-# Install script for directory: E:/RSIP_trunk/IOPlatform/dependsrcode/libevhtp-1.2.18/examples
+# Install script for directory: E:/mygitcode/evhtp_win/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

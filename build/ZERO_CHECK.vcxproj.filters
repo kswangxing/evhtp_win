@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="E:\RSIP_trunk\IOPlatform\dependsrcode\libevhtp-1.2.18\build\CMakeFiles\288b99aada2199636697752493439a6c\generate.stamp.rule">
+    <CustomBuild Include="E:\mygitcode\evhtp_win\build\CMakeFiles\b23aa542a4e6f1e9106ff58b8169f627\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{C38B6CEC-0E4E-3137-8828-EA8A6BBCFC1D}</UniqueIdentifier>
+      <UniqueIdentifier>{B5AC36B2-A502-3032-A671-297859D99BE8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,0 +1,14 @@
+﻿  main.cpp
+E:\RSIP_trunk\IOPlatform\z_test\Project1\Project1\main.cpp(1,1): warning C4819:  该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+main.obj : error LNK2019: 无法解析的外部符号 _event_base_new，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _event_base_loop，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _evbuffer_add，该符号在函数 "void __cdecl HtpCallBack(struct evhtp_request_s *,void *)" (?HtpCallBack@@YAXPAUevhtp_request_s@@PAX@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _evhtp_new，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _evhtp_set_cb，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _evhtp_bind_socket，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _evhtp_use_threads_wexit，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _evhtp_send_reply，该符号在函数 "void __cdecl HtpCallBack(struct evhtp_request_s *,void *)" (?HtpCallBack@@YAXPAUevhtp_request_s@@PAX@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _evhtp_kv_new，该符号在函数 "void __cdecl HtpCallBack(struct evhtp_request_s *,void *)" (?HtpCallBack@@YAXPAUevhtp_request_s@@PAX@Z) 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 _evhtp_kvs_add_kv，该符号在函数 "void __cdecl HtpCallBack(struct evhtp_request_s *,void *)" (?HtpCallBack@@YAXPAUevhtp_request_s@@PAX@Z) 中被引用
+E:\RSIP_trunk\IOPlatform\public\lib\x64\windows\evhtp.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\RSIP_trunk\IOPlatform\z_test\Project1\Debug\Project1.exe : fatal error LNK1120: 10 个无法解析的外部命令

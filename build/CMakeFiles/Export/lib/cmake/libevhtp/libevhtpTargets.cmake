@@ -56,8 +56,8 @@ add_library(libevhtp::evhtp SHARED IMPORTED)
 set_target_properties(libevhtp::evhtp PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "PROJECT_VERSION=1.2.18;EVHTP_HAS_SYS_TYPES;NO_STRNDUP;NO_SYS_UN;EVHTP_SYS_ARCH=64;WIN32"
   INTERFACE_COMPILE_OPTIONS "-march=i486"
-  INTERFACE_INCLUDE_DIRECTORIES "E:/RSIP_trunk/IOPlatform/public/include/libevent;E:/RSIP_;${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "E:/RSIP_trunk/IOPlatform/public/lib/x64/windows/event.lib;E:/RSIP_trunk/IOPlatform/public/lib/x64/windows/event_openssl.lib;E:/RSIP_trunk/IOPlatform/public/lib/x64/windows/event_core.lib;E:/RSIP_trunk/IOPlatform/public/lib/x64/windows/event_extra.lib;OpenSSL::SSL;OpenSSL::Crypto;E:/RSIP_trunk/IOPlatform/public/lib/x64/windows/onig.lib"
+  INTERFACE_INCLUDE_DIRECTORIES "E:/mygitcode/evhtp_win/package/include/libevent-2.1.11;E:/mygitcode/evhtp_win/package/include/oniguruma-6.9.3;${_IMPORT_PREFIX}/include"
+  INTERFACE_LINK_LIBRARIES "E:/mygitcode/evhtp_win/package/lib/event.lib;E:/mygitcode/evhtp_win/package/lib/event_openssl.lib;E:/mygitcode/evhtp_win/package/lib/event_core.lib;E:/mygitcode/evhtp_win/package/lib/event_extra.lib;OpenSSL::SSL;OpenSSL::Crypto;E:/mygitcode/evhtp_win/package/lib/onig.lib"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)
